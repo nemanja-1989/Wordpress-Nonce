@@ -1,0 +1,18 @@
+{
+    "name": "zeal/wordpress-nonce",
+    "description": "This is wordpress package for CSRF protection",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ZeaL Package",
+            "email": "zeal@package.com"
+        }
+    ],
+    "require": {},
+	"autoload": {
+		"psr-4": {
+			"Wordpress\\Nonces\\": "src"
+		}
+	}
+}
