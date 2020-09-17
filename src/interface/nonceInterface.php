@@ -2,6 +2,6 @@
 
 	interface INonce {
 		
-		public function wpNonceField();
-		public function wpVerifyNonces();
+		public function zeal_form();
+		public function process_zeal_form();
 	}
